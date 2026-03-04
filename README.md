@@ -18,7 +18,6 @@ All data stays on your machine.
 - Triggers exercise reminders on a fixed interval
 - Supports difficulty profiles (Easy / Medium / Hard)
 - Randomizes exercises and rep counts within profile limits
-- Allows Skip and Snooze options
 - Stores basic data locally in JSON
 
 This is the foundation version.
@@ -53,20 +52,20 @@ The project is fully open source. Audit it yourself.
 ## Installation
 
 Clone the repository:
-
-git clone https://github.com/<your-username>/RepScheduler.git
+```
+git clone https://github.com/FlossyFish63943/RepScheduler.git
 cd RepScheduler
-
+```
 Create a virtual environment:
-
+```
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 Run the app:
-
+```
 python main.py
-
+```
 ---
 
 ## Roadmap
